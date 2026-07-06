@@ -26,12 +26,17 @@ print ("i have made a new file now which is untracked by the git now i am im ini
 #     print("this is the recursion in the which is non sense")
 #     xyz()
 # xyz()
-n=int(input("enter the number you want to find the sum"))
-def sum(s):
-    if s==1:
-        return 1
-    else:
-        return(s+sum(s-1))
-z=sum(n)
-print(z)
+# n=int(input("enter the number you want to find the sum"))
+# def sum(s):
+#     if s==1:
+#         return 1
+#     else:
+#         return(s+sum(s-1))
+# z=sum(n)
+# print(z)
+# fabonacchi series through the RecursionError...
+
+
+
+ 
 
