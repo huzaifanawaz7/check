@@ -65,6 +65,41 @@
 # lis=[1,2,3,4]
 # show(lis,0)
 # jfidfkds
+# f=open("demo.txt","r")
+# data=f.readline()
+# print(data)
+# data=f.readline()
+# print(data)
+# print(f.tell())
+
+
+# file input and output in the file.
+# f=open("demo.txt", "r")
+# data=f.read()
+# print(data)
+# f=open("demo.txt","a")
+# f.write("now i have open a file in the append mode like now i can write a new data in the file like no the previous data will be lost")
+# f.close()
+# f=open("demo.txt","r+")
+# f.write("he is my brother and i want live with him")
+# data=f.read()
+# print(data)
+# f.close()
+# print()
+# find the smallest value 
+def small(n1,n2,n3):
+    if n1<n2 and n1<n3:
+        print("n1 is the smallest number")
+    elif n2<n3 and n2<n1:
+        print("n2 is the smallest number ")
+    else:
+        print("thr smsllest number is 1")
+
+        
+
+
+
+
 
 
 
