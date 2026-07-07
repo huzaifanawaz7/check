@@ -1,4 +1,4 @@
-print ("i have made a new file now which is untracked by the git now i am im initilizing a git in the new file ")
+# print ("i have made a new file now which is untracked by the git now i am im initilizing a git in the new file ")
 # first function
 # def calc_sum(a,b):
 #     return a+b
@@ -35,6 +35,35 @@ print ("i have made a new file now which is untracked by the git now i am im ini
 # z=sum(n)
 # print(z)
 # fabonacchi series through the RecursionError...
+# def pri(n):
+#     if n==0:
+#         return
+#     print(n)
+#     pri(n-1)
+# pri(5)
+# def factorial(n):
+#     if n==0 or n==1:
+#         return 1
+#     return n*factorial(n-1)
+
+# print(factorial(5))
+# print sum of the n narural numbers 
+
+# def sum(n):
+#     if n==0:
+#         return 0
+#     else:
+#         return n+sum(n-1)
+# print( sum(5))
+# print from the list with the recursive function.///
+
+# def show(list , idx):
+#     if idx==len(list):
+#         return 
+#     print(list[idx])
+#     return show(list , idx+1)
+# lis=[1,2,3,4]
+# show(lis,0)
 
 
 
