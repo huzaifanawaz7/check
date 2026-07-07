@@ -95,7 +95,22 @@ def small(n1,n2,n3):
     else:
         print("thr smsllest number is 1")
 
-        
+     
+     
+    #  a small loop game 
+        count=0
+num=3
+i=0
+while True:
+      i=int(input ("enter a number you want to check :"))
+      if(i==num):
+            print("this is th number you tare trying to find",num,"and the count is ",count)
+      else:      
+        print("this is not that number ")
+        count+=1
+        print("you have tried ",count ,"times ")
+
+
 
 
 
