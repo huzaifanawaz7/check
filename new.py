@@ -99,16 +99,34 @@ def small(n1,n2,n3):
      
     #  a small loop game 
         count=0
-num=3
-i=0
-while True:
-      i=int(input ("enter a number you want to check :"))
-      if(i==num):
-            print("this is th number you tare trying to find",num,"and the count is ",count)
-      else:      
-        print("this is not that number ")
-        count+=1
-        print("you have tried ",count ,"times ")
+# num=3
+# i=0
+# while True:
+#       i=int(input ("enter a number you want to check :"))
+#       if(i==num):
+#             print("this is th number you tare trying to find",num,"and the count is ",count)
+#       else:      
+#         print("this is not that number ")
+#         count+=1
+#         print("you have tried ",count ,"times ")
+
+
+        # factorial using a function
+l=int(input("enter a number :"))
+def factorial(n):
+    f=1
+
+    for i in range(1,n):
+        if(i<=n):
+            f*=i
+            i+=1
+    print("the factorial is ",f)
+
+    
+    factorial(l)
+
+
+
 
 
 
