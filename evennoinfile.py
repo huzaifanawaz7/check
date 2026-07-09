@@ -14,3 +14,6 @@ if num!="":
      if int(num)%2==0:
           count+=1
 print("total no of even no in the file are ",count)
+
+
+# using split function to find the even numbers in the file..
